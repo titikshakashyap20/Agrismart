@@ -1,0 +1,84 @@
+
+# =========================================
+# Python
+# =========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tools and test artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# =========================================
+# Secrets and local environment files
+# =========================================
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# =========================================
+# Node.js and Next.js frontend
+# =========================================
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================================
+# Build and temporary files
+# =========================================
+*.log
+tmp/
+temp/
+.DS_Store
+Thumbs.db
+
+# =========================================
+# Editors
+# =========================================
+.vscode/
+.idea/
+
+# =========================================
+# Local caches
+# =========================================
+weather_cache/
+
+# =========================================
+# Optional large model files
+# Uncomment if these should not be uploaded
+# =========================================
+# *.pt
+# *.pth
+# *.ckpt
+# *.onnx
+
+# =========================================
+# Optional private or large datasets
+# Uncomment if these folders exist and should be excluded
+# =========================================
+# data/
+# datasets/
